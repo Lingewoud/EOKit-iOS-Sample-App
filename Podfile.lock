@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFOAuth2Manager (2.2.0):
+    - AFNetworking/NSURLConnection (~> 2.2)
+  - EOKit (0.0.3):
+    - AFNetworking (~> 2.2)
+    - AFOAuth2Manager (~> 2.2)
+    - EOKit/IOS (= 0.0.3)
+    - EOKit/OSX (= 0.0.3)
+  - EOKit/IOS (0.0.3):
+    - AFNetworking (~> 2.2)
+    - AFOAuth2Manager (~> 2.2)
+
+DEPENDENCIES:
+  - EOKit (from `https://github.com/Lingewoud/EOKit.git`)
+
+EXTERNAL SOURCES:
+  EOKit:
+    :git: https://github.com/Lingewoud/EOKit.git
+
+CHECKOUT OPTIONS:
+  EOKit:
+    :commit: 6f6aacbf9b941efaf6dd421fbdb4a7c38fae283d
+    :git: https://github.com/Lingewoud/EOKit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFOAuth2Manager: 952eb62e8fd8022971e64c6e8fe28b9e999224af
+  EOKit: d71fbb0bc4bb08cc049f6748abae889d583494dc
+
+COCOAPODS: 0.39.0

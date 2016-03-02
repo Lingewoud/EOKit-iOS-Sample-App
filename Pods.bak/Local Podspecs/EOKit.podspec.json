@@ -1,0 +1,51 @@
+{
+  "name": "EOKit",
+  "version": "0.0.3",
+  "summary": "EOKit is an Exact Online client library for iOS and OSX.",
+  "description": "EOKit is an Exact Online client library for iOS and OSX.",
+  "homepage": "https://github.com/Lingewoud/EOKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pim Snel": "pim@lingewoud.nl"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "osx": "10.9"
+  },
+  "source": {
+    "git": "https://github.com/Lingewoud/EOKit.git",
+    "tag": "0.0.3"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/EOKitShared/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.2"
+    ],
+    "AFOAuth2Manager": [
+      "~> 2.2"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "OSX",
+      "platforms": {
+        "osx": "10.9"
+      },
+      "source_files": "Classes/EOKitOSX/*.{h,m}"
+    },
+    {
+      "name": "IOS",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": "Classes/EOKitIOS/*.{h,m}"
+    }
+  ]
+}
